@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <script>
+        var students = `[ 
+    {
+        "first": "Cyprien", 
+        "last": "Dzialo",
+        "age": 20,
+        "height": 180
+    },
+    {
+        "first": "Cyp", 
+        "last": "Dz", 
+        "age": 20,
+        "height": 200
+    }
+]`
+  
+    console.log(students); //prints in text form
+    console.log(JSON.parse(students)); // converts text from JSON to javascript langauge
+    console.log(JSON.parse(students)[1].age); //acces age of second student
+    console.log(JSON.parse(students)[0].first); //access first name of first student
+    </script>
+
+    <h1 id= "someText"></h1>
+    <h2 id= "someText2"></h2>
+    <h3 id = "someText3"></h3>
+    <h4 id = "someText4"></h4>
+    <h5 id = "someText5"></h5>
+    <h6 id = "someText6"></h6>
+    <h1 id = "colorText"></h1>
+
+     <script src="Home.js"></script>
+    
+</body>
+</html>
